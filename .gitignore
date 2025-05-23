@@ -1,0 +1,4 @@
+.venv
+venv/
+chromedriver.exe
+__pycache__
