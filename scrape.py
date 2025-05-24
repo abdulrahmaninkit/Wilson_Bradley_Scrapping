@@ -48,7 +48,7 @@ def extract_body_content(html_content):
         else:
             break
 
-    product_images = '\n'.join(f"- {url}" for url in img_url)
+    product_images = '\n'.join(f"{url}" for url in img_url)
 
     body_content = (f"""
         product_id : {prod_id}
